@@ -1,0 +1,167 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 64px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-image: linear-gradient(to left, silver, black);
+}
+
+header > img
+{
+    margin: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+header > img:hover
+{
+    transition: 0.25s;
+    transform: scale(1.12);
+}
+
+
+body{
+    background-color: #ddd;
+}
+
+
+
+
+
+main
+{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 2px solid silver;
+    border-right: 2px solid silver;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, white, aliceblue);
+    box-shadow: 0px 0px 6px rgb(131, 123, 123);
+}
+
+main img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.goster
+{
+    display: block;
+    overflow: auto;
+    max-height: 100vh;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.sakla
+{
+    display: block;
+    overflow: hidden;
+    max-height: 1px;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.sidebar-menu
+{
+    overflow: hidden;
+    transition: 0.25s;
+    width: 50px;
+    height: 50vh;
+    z-index: 1000;
+    position: fixed;
+    top: 25vh;
+    left: 0px;
+    background-image: linear-gradient(to right, aliceblue, rgb(152, 190, 206));
+    border: 2px solid navy;
+    border-left: none;
+    padding: 2px;
+    box-shadow: 4px 4px 4px rgba(87, 88, 90, 0.316);
+    opacity: 0.75;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar-menu:hover
+{
+    transition: 0.25s;
+    width: 220px;
+    opacity: 1;
+    box-shadow: 4px 4px 4px rgba(87, 88, 90, 0.592);
+}
+
+.sidebar-menu > ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.sidebar-menu > ul > li
+{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.sidebar-menu > ul > li:hover
+{
+    background-image: linear-gradient(to bottom, silver, rgb(97, 97, 129));
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+
+
+
+
+.option-menu
+{
+    overflow: hidden;
+    transition: 0.25s;
+    width: 50px;
+    height: 50vh;
+    z-index: 1000;
+    position: fixed;
+    top: 25vh;
+    right: 0px;
+    background-image: linear-gradient(to right, aliceblue, rgb(152, 190, 206));
+    border: 2px solid navy;
+    border-right: none;
+    padding: 2px;
+    box-shadow: 4px 4px 4px rgba(87, 88, 90, 0.316);
+    opacity: 0.75;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.option-menu:hover
+{
+    transition: 0.25s;
+    width: 220px;
+    opacity: 1;
+    box-shadow: 4px 4px 4px rgba(87, 88, 90, 0.592);
+}
+
+.option-menu > ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.option-menu > ul > li
+{
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.option-menu > ul > li:hover
+{
+    background-image: linear-gradient(to bottom, silver, rgb(97, 97, 129));
+    border-radius: 10px;
+    transition: 0.25s;
+}
